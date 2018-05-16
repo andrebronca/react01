@@ -9,9 +9,11 @@ import registerServiceWorker from './registerServiceWorker';
 
 import HelloWorld from './HelloWorld'
 import PropsValidation from './PropsValidation'
+import Events from './Events'
 
 ReactDOM.render(
     // <HelloWorld txt = 'Lidando com props' />,
-    <PropsValidation name="AndRB" age="39" height="1.9" />,
+    // <PropsValidation name="AndRB" age="39" height="1.9" />,
+    <Events />,
     document.getElementById("root")
 )
