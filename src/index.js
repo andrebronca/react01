@@ -8,8 +8,10 @@ import registerServiceWorker from './registerServiceWorker';
 // registerServiceWorker();
 
 import HelloWorld from './HelloWorld'
+import PropsValidation from './PropsValidation'
 
 ReactDOM.render(
-    <HelloWorld />,
+    // <HelloWorld txt = 'Lidando com props' />,
+    <PropsValidation name="AndRB" age="39" height="1.9" />,
     document.getElementById("root")
 )
